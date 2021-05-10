@@ -1,0 +1,32 @@
+h1{
+    color: cornflowerblue;
+    border-bottom: solid #324 10px;
+}
+h2{
+    margin:5%;
+    color:darkblue;
+}
+.main-news{
+    padding: 25px;
+}
+
+.nav-link{
+    color:seagreen;
+    font-family:'Quando', Times, serif;
+}
+.nav-link:hover{
+    color:rgb(49, 255, 128);
+}
+
+.rounded-pill{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.banniere{
+    width:100%;
+    height:10vh;
+
+}
