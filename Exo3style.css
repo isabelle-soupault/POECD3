@@ -1,0 +1,65 @@
+#line1{
+    display: flex;
+    flex-direction: row;
+}
+#line2{
+    display: flex;
+    flex-direction: row;
+}
+#line3{
+    display: flex;
+    flex-direction: row;
+}
+#line4{
+    background-color: #2C3E50;
+    widht:100%;
+    height:20vh; 
+ }
+#greenLine1{
+    background-color: green;
+    width:80%;
+    height:4vh;
+}
+#blueLine1{
+    background-color: blue;
+    width:20%;
+    height:4vh;
+    display:inline-block;
+}
+#line2{
+    display: flex;
+    flex-direction: row;
+}
+#redLine{
+    background-color: red;
+    float:left;
+    width:40%;
+    height:10vh;
+}
+#orangeLine2{
+    background-color: #E67E22;
+    width:50%;
+    height:5vh;
+}
+#greyLine2{
+    background-color: #95A5A6;
+    width: 50%;
+    height:5vh;
+}
+#lightOrangeLine3{
+    background-color: #F39C12;
+    width:34%;
+    height:5vh;
+}
+#tealLine3{
+    background-color: #16A085;
+    width:33%;
+    height:5vh;
+}
+#darkOrangeLine3{
+    background-color: #D35400;
+    width:33%;
+    height:5vh;
+}
+
+
