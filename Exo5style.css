@@ -1,0 +1,21 @@
+h1{
+    color: cornflowerblue;
+    border-bottom: solid #324 10px;
+}
+h2{
+    font-style: italic;
+}
+.main-news{
+    padding: 25px;
+}
+
+.phpText{
+    margin:10%;
+}
+.lien{
+    color:seagreen;
+    font-family:'Quando', Times, serif;
+}
+.lien:hover{
+    color:yellow;
+}
