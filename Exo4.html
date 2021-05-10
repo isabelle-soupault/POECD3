@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 6</title>
+    <link rel="stylesheet" type="text/css" href="Exo4style.css" media="all" />
+</head>
+
+<body>
+    <form id="paiement">
+
+        <fieldset class="identity">
+
+            <legend>Votre identité</legend>
+
+            <ol>
+                <li><label for="lastname">Nom :</label> <input id="lastname" name="lastname" type="text"
+                        placeholder="Nom" required autofocus></li>
+                <li><label for="firstname">Prénom : </label> <input id="firstname" name="firstname" type="text"
+                        placeholder="Prénom" required></li>
+                <li><label for="email">Adresse mail :</label> <input id="email" name="email" type="email"
+                        placeholder="Adresse mail" required></li>
+            </ol>
+
+        </fieldset>
+
+
+        <fieldset class="shipping">
+            <legend>Adresse de livraison</legend>
+            <ol>
+                <li><label for="address">Adresse</label> <textarea id="address" name="address" rows="5"
+                        required></textarea></li>
+                <li><label for="postalCode">Code postal</label> <input id="postalCode" name="postalCode" type="text"
+                        placeholder="Code postal" required></li>
+                <li><label for="city">Ville</label> <input id="city" name="city" type="text" placeholder="Ville"
+                        required></li>
+            </ol>
+        </fieldset>
+        <fieldset class="billing">
+            <legend>Informations de règlement</legend>
+            <ol>
+                <li>Type de carte bancaire :
+                    <ul>
+                        <li><input id="visa" name="cardType" type="radio"> <label for="visa">VISA</label></li>
+                        <li><input id="mastercard" name="cardType" type="radio"> <label
+                                for="mastercard">Mastercard</label></li>
+                    </ul>
+                </li>
+                <li><label for="cardNumber">Numéro de carte</label> <input id="cardNumber" name="cardNumber" type="text"
+                        placeholder="Numéro de carte" required></li>
+                <li><label for="security">Code de sécurité</label> <input id="security" name="security" type="text"
+                        placeholder="Code de sécurité" required></li>
+                <li><label for="ownerName">Nom du titulaire</label> <input id="ownerName" name="ownerName" type="text"
+                        placeholder="Nom du titulaire" required></li>
+            </ol>
+        </fieldset>
+        <button type="submit">J'achète !</button>
+    </form>
+</body>
